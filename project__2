@@ -18,11 +18,11 @@
 
             public void credit()
             {
-                Console.WriteLine("Enter Name of the depositor :");
+                Console.WriteLine("please Enter the name of the Account holder :");
                 name = Console.ReadLine();
-                Console.WriteLine("Enter Account Number  :");
+                Console.WriteLine("Please entre the Account Number of the Account holder :");
                 account = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Enter Credit Amount :");
+                Console.WriteLine("please entre the amount you want to Deposit :");
                 dep = Convert.ToDouble(Console.ReadLine());
                 total = bal + dep;
 
@@ -34,11 +34,11 @@
             }
             public void debit()
             {
-                Console.WriteLine("Enter Account Name :");
+                Console.WriteLine("please Enter the name of the Account holder :");
                 name = Console.ReadLine();
-                Console.WriteLine("Enter Account Number  :");
+                Console.WriteLine("Please entre the Account Number of the Account holder  :");
                 account = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Enter Withdraw Amount :");
+                Console.WriteLine("please entre the amount you want to Withdraw :");
                 withdraw = Convert.ToDouble(Console.ReadLine());
                 if (withdraw <= bal)
                 {
